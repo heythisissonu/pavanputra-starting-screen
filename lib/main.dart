@@ -352,7 +352,8 @@ class OnBoardingScreenState extends State<OnBoardingScreen> {
                               onPressed: _continueAsGuest, 
                               style: ElevatedButton.styleFrom( 
                                 minimumSize: const Size(double.infinity, 50), 
-                                backgroundColor: const Color.fromARGB(255, 240, 240, 240), 
+                                backgroundColor: const Color.fromARGB(255, 155, 115, 107),
+                                foregroundColor: Colors.white, // Button text (and icon) color 
                                 textStyle: const TextStyle( 
                                   color: Color.fromARGB(255, 255, 254, 254), 
                                   fontSize: 16, 
